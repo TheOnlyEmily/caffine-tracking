@@ -9,3 +9,10 @@
 in the commandline. 
 1. Then navigate to the outer-most project directory (caffine-tracking),
 and run the command "poetry install".
+
+## Use (TODO)
+1. Navigate to the "caffine_tracking" directory 
+(inside caffine-tracking)
+1. To enter a reading type "main.py enter 'diet coke' 500 ml"
+1. To see a summary of the data entered type "main.py summary"
+1. To see the last 10 entries type "main.py history"
