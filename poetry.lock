@@ -80,6 +80,19 @@ pytz = ">=2020.1"
 test = ["hypothesis (>=5.5.3)", "pytest (>=6.0)", "pytest-xdist (>=1.31)"]
 
 [[package]]
+name = "pint"
+version = "0.19.2"
+description = "Physical quantities module"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+numpy = ["numpy (>=1.19.5)"]
+test = ["pytest", "pytest-mpl", "pytest-cov", "pytest-subtests"]
+uncertainties = ["uncertainties (>=3.1.6)"]
+
+[[package]]
 name = "pluggy"
 version = "1.0.0"
 description = "plugin and hook calling mechanisms for python"
@@ -180,7 +193,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "b241c464ba7cbb87d164c7f39e560a9a361b48c2922efbf29b3a44855625cb5e"
+content-hash = "ca26349e8c527ecedc639389a5340abff569856e90db73a0fde8d9298f047958"
 
 [metadata.files]
 atomicwrites = []
@@ -205,6 +218,9 @@ packaging = [
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
 ]
 pandas = []
+pint = [
+    {file = "Pint-0.19.2.tar.gz", hash = "sha256:e1d4989ff510b378dad64f91711e7bdabe5ca78d75b06a18569ac454678c4baf"},
+]
 pluggy = [
     {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
     {file = "pluggy-1.0.0.tar.gz", hash = "sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159"},
