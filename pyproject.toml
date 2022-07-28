@@ -6,7 +6,6 @@ authors = ["EmmyCodes <emingram49@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pyramda = "^0.1"
 pandas = "^1.4.3"
 Pint = "^0.19.2"
 
