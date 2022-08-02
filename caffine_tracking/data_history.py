@@ -1,4 +1,4 @@
-from operator import eq 
+from operator import eq
 from caff_data import get_caff_data
 
 if eq(__name__, "__main__"):
