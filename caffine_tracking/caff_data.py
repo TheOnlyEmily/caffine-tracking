@@ -15,7 +15,4 @@ def caff_data_csv_exists() -> bool:
 
 
 def get_caff_data() -> pd.DataFrame:
-    if caff_data_csv_exists():
-        return get_current_caff_data()
-    else:
-        return get_new_caff_df()
+    return get_current_caff_data() if caff_data_csv_exists() else get_new_caff_df()
